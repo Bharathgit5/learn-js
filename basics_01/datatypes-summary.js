@@ -46,3 +46,22 @@ Functions - const myFunction = function(){
 }
  console.log(typeof(mydetails))
 */
+// stack (primitive) - copy , heap (non-primitive) - reference(original)
+// stack - copy of the variable is used
+// heap - original value will also change if the second variable change first variable value
+let myname = "bharath" 
+let anothername = myname
+anothername = "pawankalyan" //anothername value changes to new name
+console.log(anothername) //but orignal myname value doesnot change
+
+//heap
+let userone ={
+    name:'bharath',
+    sub:'MPMC',
+    marks:90
+}
+let usertwo = userone
+
+userone.name = "hanuma" //both userone and usertwo name changes
+console.log(usertwo)
+
