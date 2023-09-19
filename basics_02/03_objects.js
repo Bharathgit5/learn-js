@@ -1,4 +1,7 @@
 //singleton 
+
+/*const user = new Object()
+console.log(user)  using singleton*/
 //object.create
 
 //object literals
