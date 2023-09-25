@@ -1,4 +1,4 @@
-//loops used to iterate in obj use for-in loop
+//loops used to iterate in obj, use for-in loop
 
 const mySkills = {
     skill1:'html',
@@ -9,11 +9,11 @@ const mySkills = {
 }
 // to iterate over obj us for-in loop
 for (const key in mySkills) {
- console.log(`${key} is ${mySkills[key]}`)
+ console.log(`${key} is ${mySkills[key]}`) //gives property name as output myskills[key] gives actual value
 }
 
-//in for-of iterator  acts as a index value where as in for of iterator acts as the actual value 
-
+//in for-of iterator  acts as a index value where as in for of iterator acts as the property name 
+//do not use for in over an array
 const map = new Map()
 map.set('IN','INDIA')
 map.set('pak','pak')
