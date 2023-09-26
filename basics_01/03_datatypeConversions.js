@@ -14,7 +14,7 @@ let score = "23kjk"
 let isLoggedIn = ""
 
 let isLoggedInBoolean = Boolean(isLoggedIn)
-//console.log(isLoggedInBoolean)
+console.log(isLoggedInBoolean)
 //1 => true; 0 => false
 //"" => false
 //"bharath" => true
@@ -25,3 +25,4 @@ console.log(stringnum)
 console.log(typeof(stringnum))
 let sum = stringnum
 console.log(sum)
+console.log(typeof(sum))

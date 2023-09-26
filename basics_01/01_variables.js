@@ -18,6 +18,7 @@ logName();
 var myName;
 var keyword is outdated only use const-which doesnot change let-can change values
 because of issue in block scope and functional scope
+the variables inside the scope using var keyword can be used outside this is the problem with var keyword
 */
 // accountId = 192313  //error
 accountEmail="my@gmail.com"

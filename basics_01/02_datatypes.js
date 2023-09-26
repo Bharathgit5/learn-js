@@ -32,7 +32,16 @@ console.log(bharath.subject)
 
 //null - intentional absence
 let knowledge=null  //object
-console.log(knowledge)
+//console.log(knowledge)
 
 let tell  //undefined
-console.log(tell)
+//console.log(tell)
+var scope = "global scope";
+function checkscope() {
+var scope = "local scope";
+function func() {
+return scope;
+}
+return func;
+}
+//console.log(scope) doesnot return anything
