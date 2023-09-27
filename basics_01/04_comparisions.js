@@ -10,7 +10,7 @@ console.log("02">1)*/
 
 //null = 0
 /*eqaulity check == and comparison > < >= <= work differently.
-comparisons convert null to a number, trating it as 0.
+comparisons convert null to a number, treating it as 0.
 thats why (3) null >=0 is true and (1) null >0 is false*/
 /*console.log(null > 0)
 console.log(null == 0)
